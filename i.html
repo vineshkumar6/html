@@ -1,0 +1,91 @@
+<html>
+
+<body>
+<head>HI I AM VINESH
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: #ffa500;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+c.mySlides {
+	display:none;
+}
+</style></head>
+<header>
+<img src="file:///C:/Users/Vinesh/Desktop/web/v.png"  alt="Image" style="height: 52px; width: 81px">
+<h2>Vinesh HTML</h2></header>
+<nav>
+<ul>
+<li><a href="C:\Users\Vinesh\Desktop\web\v.html">CSE</a></li>
+<li><a href="C:\Users\Vinesh\Desktop\web\i.html">IT</a></li>
+<li><a href="C:\Users\Vinesh\Desktop\web\n.html">Mech</a></li>
+</ul>
+</nav>
+
+
+<div class="c" style="max-width:500px">
+  <img class="my" src="file:///C:/Users/Vinesh/Desktop/web/2.jpg" style="width:100%">
+  <img class="my" src="file:///C:/Users/Vinesh/Desktop/web/3.jpg" style="width:100%">
+  <img class="my" src="file:///C:/Users/Vinesh/Desktop/web/8.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("my");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); 
+}
+</script>
+
+
+
+
+<p style="text-align: center; width: 95%; padding: 15px;">
+<a href="#top">Top of Page</a> |
+<a href="#center">Center</a> |
+</p>
+<footer>Vinesh winslet.wixsite.com/wins<a href="http://winslet2.wixsite.com/wins">WEB</a></footer>
+</body>
+</html>
+
+
